@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register/Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Register/Login</h1>
+    <div class="form-container">
+        <form id="register-form">
+            <h2>Register</h2>
+            <div>
+                <label for="register-username">Username:</label>
+                <input type="text" id="register-username" name="username" required>
+            </div>
+            <div>
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" name="password" required>
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+            <p class="message"></p>
+        </form>
+        <form id="login-form">
+            <h2>Login</h2>
+            <div>
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="username" required>
+            </div>
+            <div>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="password" required>
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+            <p class="message"></p>
+        </form>
+    </div>
+    <script src="register.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
